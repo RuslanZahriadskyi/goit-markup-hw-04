@@ -69,6 +69,7 @@ a {
 .auth-nav .link:focus,
 .logo-nav {
 	color: var(--acent-color);
+	--color5: #2196f3;
 }
 
 .site-nav .link {
@@ -88,6 +89,7 @@ a {
 }
 
 .auth-nav .link {
+	display: flex;
 	padding-top: 31px;
 	padding-bottom: 31px;
 
@@ -102,11 +104,14 @@ a {
 	width: 16px;
 	height: 14px;
 	align-items: center;
-	border: 0px;
+}
+
+.smartphone {
+	width: 10px;
+	height: 14.94px;
 }
 
 .icon-envelope-hover:hover {
-	--color5: #2196f3;
 }
 
 /* Order a service studio*/
@@ -160,6 +165,7 @@ a {
 	width: 270px;
 	height: 120px;
 	background-color: var(--secondary-bg-color);
+	border-radius: 4px;
 }
 
 .antenna,
@@ -254,18 +260,20 @@ a {
 } */
 
 .social-links {
-	display: block;
+	display: flex;
 	width: 44px;
 	height: 44px;
 	margin-right: 10px;
 	margin-bottom: 24px;
+	align-items: center;
+	justify-content: center;
 	color: #afb1b8;
 }
 
 .social-links:hover {
 	border-radius: 50%;
 	background-color: #2196f3;
-	--color2: #ffffff;
+	--color1: #ffffff;
 }
 
 .item-links:last-child {
@@ -273,9 +281,19 @@ a {
 }
 
 .instagram,
-.twitter {
+.linkedin {
 	width: 20px;
 	height: 20px;
+}
+
+.twitter {
+	width: 20px;
+	height: 16.25px;
+}
+
+.facebook {
+	width: 20px;
+	height: 40px;
 }
 
 .section.team {
@@ -315,12 +333,55 @@ a {
 }
 
 .section.list .item.clients {
+	display: flex;
 	width: calc((100% - 150px) / 6);
+	height: 90px;
 	margin-right: 30px;
+	align-items: center;
+	justify-content: center;
+	outline: 1px solid #afb1b8;
+	border-radius: 4px;
+	box-sizing: border-box;
 }
 
 .section.list .item.clients:last-child {
 	margin-right: 0px;
+}
+
+.company-1 {
+	display: block;
+	width: 44.27px;
+	height: 49.23px;
+}
+
+.company-2 {
+	display: block;
+	width: 40px;
+	height: 52px;
+}
+
+.company-3 {
+	display: block;
+	width: 41px;
+	height: 42.6px;
+}
+
+.company-4 {
+	display: block;
+	width: 79.66px;
+	height: 42.02px;
+}
+
+.company-5 {
+	display: block;
+	width: 59px;
+	height: 47px;
+}
+
+.company-6 {
+	display: block;
+	width: 88.48px;
+	height: 45.44px;
 }
 
 /* Portfolio */
