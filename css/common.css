@@ -98,6 +98,17 @@ a {
 	letter-spacing: 0.02em;
 }
 
+.envelope-hover {
+	width: 18px;
+	height: 11.2px;
+	align-items: center;
+	border: 0px;
+}
+
+.icon-envelope-hover:hover {
+	--color5: #2196f3;
+}
+
 /* Order a service studio*/
 
 .section.service {
@@ -121,8 +132,12 @@ a {
 }
 
 .button.primary {
+	width: 200px;
+	height: 50px;
 	color: var(--primary-bg-color);
 	background-color: var(--acent-color);
+	border-radius: 4px;
+	border: 0px;
 
 	font-weight: bold;
 	font-size: 16px;
@@ -140,9 +155,17 @@ a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	padding: 0px;
+	border: none;
 	width: 270px;
 	height: 120px;
 	background-color: var(--secondary-bg-color);
+}
+
+.icon-antenna {
+	width: 70px;
+	height: 70px;
+	fill: tomato;
 }
 
 .section.list {
@@ -363,24 +386,28 @@ a {
 
 .container.footer {
 	display: flex;
+	height: 252px;
 }
 
-.container.footer .logo-address {
+/* .container.footer .logo-address {
+	width: 231px;
+	height: 81px;
 	padding-top: 60px;
-}
+} */
 
 .container.footer .join {
-	padding-top: 74px;
-	padding-left: 147px;
+	padding-top: 72px;
+	padding-left: 69px;
 }
 
 .container.footer .sign {
-	padding-top: 74px;
+	padding-top: 72px;
 	padding-left: 94px;
 }
 
 .logo-footer {
 	display: inline-block;
+	padding-top: 60px;
 	margin-bottom: 20px;
 	color: var(--primary-bg-color);
 
@@ -393,6 +420,11 @@ a {
 
 .logo-span {
 	color: var(--acent-color);
+}
+
+.full-address {
+	width: 231px;
+	height: 81px;
 }
 
 .address {
@@ -408,7 +440,6 @@ a {
 
 .footer-link {
 	display: inline-block;
-	margin-bottom: 9px;
 	color: rgba(255, 255, 255, 0.6);
 
 	font-size: 14px;
@@ -419,6 +450,11 @@ a {
 .footer-link:hover,
 .footer-link:focus {
 	color: var(--acent-color);
+}
+
+.join {
+	width: 206px;
+	height: 80px;
 }
 
 .attention {
@@ -432,10 +468,21 @@ a {
 	text-transform: uppercase;
 }
 
+.sign {
+	width: 570px;
+	height: 86px;
+}
+
 .button-second {
-	margin-left: 370px;
+	margin-left: 360px;
+	width: 200px;
+	height: 50px;
+	padding-left: 29px;
 	color: var(--primary-bg-color);
 	background-color: var(--acent-color);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	border: 0px;
 
 	font-weight: bold;
 	font-size: 16px;
@@ -444,4 +491,17 @@ a {
 	align-items: center;
 	text-align: center;
 	letter-spacing: 0.06em;
+}
+
+.button.icon-send {
+	margin-left: 10px;
+	width: 24px;
+	height: 24px;
+	padding-right: 28px;
+}
+
+.icon-icon-send {
+	width: 24px;
+	height: 24px;
+	--color1: #ffffff;
 }

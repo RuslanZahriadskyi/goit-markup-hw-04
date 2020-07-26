@@ -173,19 +173,14 @@
 		<footer class="footer">
 			<div class="container footer">
 				<div class="logo-address">
-					<address>
-						<a href="" class="logo-footer">
-							<span class="logo-span">Web</span>
-							Studio
-						</a>
-						<br />
-
+					<a href="" class="logo-footer">
+						<span class="logo-span">Web</span>
+						Studio
+					</a>
+					<address class="full-address">
 						<p class="address">г. Киев, пр-т Леси Украинки, 26</p>
-						<br />
 						<a class="footer-link" href="mailto:info@example.com">info@example.com</a>
-						<br />
 						<a class="footer-link" href="tel:+380991111111">+38 099 111 11 11</a>
-						<br />
 					</address>
 				</div>
 
@@ -218,7 +213,12 @@
 
 				<div class="sign">
 					<b class="attention">Подпишитесь на рассылку</b>
-					<button type="button" class="button-second">Подписаться</button>
+					<button type="button" class="button-second">
+						Подписаться
+						<svg class="button icon-send">
+							<use href="./images/sprite.svg#icon-icon-send"></use>
+						</svg>
+					</button>
 				</div>
 			</div>
 		</footer>
