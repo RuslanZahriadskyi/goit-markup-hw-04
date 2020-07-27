@@ -126,7 +126,6 @@ a {
 	height: 600px;
 	margin-right: auto;
 	margin-left: auto;
-	outline: 1px solid tomato;
 	background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("../images/Header.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
