@@ -476,12 +476,13 @@ a {
 	padding-top: 20px;
 	padding-bottom: 4px;
 	padding-left: 24px;
+	padding-right: 24px;
 
 	color: var(--primary-text-color);
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 2;
-	letter-spacing: 0.06em;
+	letter-spacing: 0.03em;
 }
 
 .section-subtitle {
@@ -489,6 +490,7 @@ a {
 	margin-bottom: 0px;
 	padding-bottom: 20px;
 	padding-left: 24px;
+	padding-right: 24px;
 
 	color: var(--secondary-text-color);
 	font-size: 16px;
