@@ -118,25 +118,21 @@ a {
 
 .section.service {
 	text-align: center;
-	padding-bottom: 0px;
-}
+	padding-top: 200px;
+	padding-bottom: 220px;
 
-.overlay {
 	max-width: 1600px;
-	height: 600px;
 	margin-right: auto;
 	margin-left: auto;
 	background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("../images/Header.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	/* background: rgba(47, 48, 58, 0.8); */
 }
 
 .section-caption {
 	margin-top: 0;
 	margin-bottom: 40px;
-	padding-top: 200px;
 	color: var(--primary-bg-color);
 	font-weight: 900;
 	font-size: 44px;
@@ -420,6 +416,10 @@ a {
 }
 
 .button.secondary {
+	padding-top: 6px;
+	padding-right: 22px;
+	padding-bottom: 6px;
+	padding-left: 22px;
 	color: var(--primary-text-color);
 	background-color: var(--secondary-bg-color);
 
@@ -437,6 +437,7 @@ a {
 .button.secondary:focus {
 	color: var(--primary-bg-color);
 	background-color: var(--acent-color);
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 3px 1px rgba(0, 0, 0, 0.1);
 }
 
 .section.list.project {
@@ -461,6 +462,10 @@ a {
 	margin-bottom: 0;
 }
 
+.section.list.project .item:hover {
+	box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
 .project-links {
 	display: inline;
 }
@@ -470,6 +475,7 @@ a {
 	margin-bottom: 0px;
 	padding-top: 20px;
 	padding-bottom: 4px;
+	padding-left: 24px;
 
 	color: var(--primary-text-color);
 	font-weight: bold;
@@ -482,6 +488,7 @@ a {
 	margin-top: 0px;
 	margin-bottom: 0px;
 	padding-bottom: 20px;
+	padding-left: 24px;
 
 	color: var(--secondary-text-color);
 	font-size: 16px;
